@@ -1,0 +1,26 @@
+.cartItem{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #F3F3F3;
+    border-radius: 20px;
+    align-items: center;
+    p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    b{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+
+    .minus{
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+
+    }
+  }

@@ -1,0 +1,22 @@
+.content {
+    margin: 40px;
+
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}

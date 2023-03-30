@@ -1,0 +1,13 @@
+.account{
+    &__accBlock{
+        margin: 40px;
+    }
+
+    &__purchase-top{
+        display: flex;
+        align-items: center;
+        svg{
+            padding-right: 20px;
+        }
+    }
+}

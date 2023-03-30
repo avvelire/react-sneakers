@@ -1,0 +1,20 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    width: 960px;
+    background: #F4EFE9;
+    border-radius: 20px;
+
+    &__left{
+        padding: 40px;
+            h1{
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 46px;
+                b{
+                    color: #8BB43C
+                }
+            }
+    }
+}
